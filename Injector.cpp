@@ -4,8 +4,8 @@
 #define BUFF 99 // Common Buffer Size
 using namespace std;
 
-char _p_name[BUFF];
-char _dll_name[BUFF];
+char _p_name[BUFF]; // Name of Process
+char _dll_name[BUFF]; // Name of DLL for injection
 DWORD pid = NULL;  // PID of process for injection
 
 char *buff = (char*) malloc(BUFF);  // Common Buffer
