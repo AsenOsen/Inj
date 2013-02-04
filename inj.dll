@@ -1,0 +1,16 @@
+library Project1;
+
+
+uses
+  SysUtils,
+  Classes,
+  windows,
+  Unit1 in 'Unit1.pas' {Form1};
+
+{$R *.res}
+
+var form:TForm1;
+begin
+form:=TForm1.Create(nil);
+form.ShowModal();
+end.
